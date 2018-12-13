@@ -30,7 +30,7 @@ class _HomePageState extends State<HomePage> {
         title: Text("Easy list"),
         centerTitle: true,
       ),
-      body: ProductManager(),
+      body: ProductManager('Food Tester'),
     );
   }
 }
